@@ -47,3 +47,30 @@ git log
 Moving file from GIT repo to GITHUB repo
 
 git push origin master
+
+##############################################################################################################
+
+First create branch in GITHUB (Eg: BranchX)
+
+Pull Request using commands:
+
+git branch
+
+git pull origin BranchX
+
+git branch
+
+git checkout BranchX
+
+git branch (BranchX)
+
+Modify the eclipse project by adding one file called x
+
+git status
+
+git add "x file path"
+
+git commit -m "Comment"
+
+git push origin BranchX
+git status
